@@ -29,7 +29,6 @@ module.exports = {
   ],
   ignorePatterns: ['build/', 'node_modules/', 'src/data/gpx'],
   rules: {
-
     'indent': ['error', 2],
     'no-trailing-spaces': 'error',
     'curly': 'error',

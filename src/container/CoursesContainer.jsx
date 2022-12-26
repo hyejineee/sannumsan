@@ -1,14 +1,10 @@
 import React, { useEffect } from 'react';
-
 import { useDispatch, useSelector } from 'react-redux';
-
 import {
   setCourses,
   selectedCourse,
 } from '_redux/slice';
-
 import { findClimbingCourses } from 'service/courses';
-
 import Courses from '../presentational/Courses';
 
 export default function CoursesContainer() {
