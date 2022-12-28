@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="71" viewBox="0 0 63 71">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <text fill="#3697FF" font-family="NotoSansKR-Medium, Noto Sans KR" font-size="14" font-weight="400" transform="translate(-51 -93) translate(51 93)">
+                    <tspan x="11.473" y="61.8">Home</tspan>
+                </text>
+                <g>
+                    <path d="M0 0H42V42.6H0z" transform="translate(-51 -93) translate(51 93) translate(11.2)"/>
+                    <path fill="#3697FF" fill-rule="nonzero" d="M22.056 31.92h-3.502v-3.582h3.502v3.581zm-7.004-5.372v7.162c0 .984.788 1.79 1.751 1.79h7.004c.963 0 1.75-.806 1.75-1.79v-7.162c0-.985-.787-1.79-1.75-1.79h-7.004c-.963 0-1.75.805-1.75 1.79zm17.51-10.206V8.643c0-.985-.788-1.79-1.752-1.79h-1.75c-.963 0-1.751.805-1.751 1.79v2.865l-5.831-5.371c-.665-.61-1.68-.61-2.346 0L4.494 19.619c-.595.537-.228 1.557.578 1.557h2.293c.438 0 .858-.16 1.174-.465L20.305 9.879 32.054 20.71c.332.304.753.465 1.173.465h2.294c.805 0 1.19-1.02.577-1.557l-3.537-3.277z" transform="translate(-51 -93) translate(51 93) translate(11.2)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
