@@ -24,9 +24,7 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   ignorePatterns: ['build/', 'node_modules/', 'src/data/gpx'],
   rules: {
     'indent': ['error', 2],
