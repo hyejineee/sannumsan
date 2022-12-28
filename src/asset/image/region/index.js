@@ -1,0 +1,16 @@
+export * as region1 from './region1.svg';
+export * as region2 from './region2.svg';
+export * as region3 from './region3.svg';
+export * as region4 from './region4.svg';
+export * as region5 from './region5.svg';
+export * as region6 from './region6.svg';
+export * as region7 from './region7.svg';
+export * as region8 from './region8.svg';
+export * as region9 from './region9.svg';
+export * as region10 from './region10.svg';
+export * as region11 from './region11.svg';
+export * as region12 from './region12.svg';
+export * as region13 from './region13.svg';
+export * as region14 from './region14.svg';
+export * as region15 from './region15.svg';
+export * as region16 from './region16.svg';
