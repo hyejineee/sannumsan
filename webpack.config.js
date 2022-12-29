@@ -2,11 +2,11 @@ const path = require('path');
 const webpack = require('webpack');
 const Dotenv = require('dotenv-webpack');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/index.jsx'),
   mode: 'development',
+  entry: path.resolve(__dirname, 'src/index.jsx'),
   output: {
     path: `${__dirname}/build`,
     filename: 'bundle.js',
@@ -54,7 +54,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
@@ -91,8 +91,6 @@ module.exports = {
       template: './index.html', // public/index.html 파일을 읽는다.
       filename: 'index.html', // output으로 출력할 파일은 index.html 이다.
     }),
-    new MiniCssExtractPlugin({
-      filename: 'index.css',
-    }),
+    new CleanWebpackPlugin({}),
   ],
 };
