@@ -24,7 +24,7 @@ export default function CourseMapCotainer() {
 
   return (
     <RenderAfterNavermapsLoaded
-      ncpClientId={process.env.REACT_APP_MAP_CLIENT_ID}
+      ncpClientId={process.env.MAP_CLIENT_ID}
     >
       <CourseMap courseGPX={convertToXml(courseGPX)} />
     </RenderAfterNavermapsLoaded>
