@@ -69,32 +69,19 @@ export default function CourseItem({
 }) {
   return (
     <Container>
-      <CourseTitle>
-        {courseName}
-      </CourseTitle>
+      <CourseTitle>{courseName}</CourseTitle>
 
-      <MountainName>
-        {mountainName}
-      </MountainName>
+      <MountainName>{mountainName}</MountainName>
 
-      <Time>
-        {time}
-      </Time>
+      <Time>{time}</Time>
 
-      <Distance>
-        (
-        {distance}
-        )
-      </Distance>
+      <Distance>{distance}</Distance>
 
       <TagBox>
-        {
-          tags.map((tag) => (
-            <Tag>{tag}</Tag>
-          ))
-        }
+        {tags.map((tag, index) => (
+          <Tag key={index}>{tag}</Tag>
+        ))}
       </TagBox>
-
     </Container>
   );
 }

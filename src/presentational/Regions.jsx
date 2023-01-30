@@ -92,6 +92,7 @@ export default function Regions({ regions, onChange }) {
       <Grid>
         {regions.map(({ id, option }) => (
           <div
+            key={id}
             onMouseEnter={() => handleMouseEnter(id)}
             onMouseLeave={() => handleMouseLeave(id)}
           >
@@ -108,12 +109,10 @@ export default function Regions({ regions, onChange }) {
       </Grid>
 
       {regions.map(({ id }) => (
-        <div style={{ 'height': '100%' }}>
+        <div style={{ height: '100%' }}>
           <Map
             id={`region${id}`}
-            image={
-              regionImages[`region${id}`].default
-            }
+            image={regionImages[`region${id}`].default}
             hovered={id === state.hover}
             checked={id === state.checked}
           />

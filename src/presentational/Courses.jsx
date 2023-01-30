@@ -101,30 +101,23 @@ export default function Courses({ courses, onClick }) {
 
   return (
     <Container>
-
       <ArrowButton type="button" onClick={previousPage} name="left">
         <img src={leftIcon} alt="left" />
       </ArrowButton>
 
       <List>
-        {
-          courses.map((course) => (
-            <Item page={state.currentPage}>
-              <button type="button" onClick={() => onClick(course.id)}>
-                <CourseItem
-                  key={course.id}
-                  course={course}
-                />
-              </button>
-            </Item>
-          ))
-        }
+        {courses.map((course) => (
+          <Item page={state.currentPage} key={course.id}>
+            <button type="button" onClick={() => onClick(course.id)}>
+              <CourseItem course={course} />
+            </button>
+          </Item>
+        ))}
       </List>
 
       <ArrowButton type="button" onClick={nextPage} name="right">
         <img src={rightIcon} alt="right" />
       </ArrowButton>
-
     </Container>
   );
 }

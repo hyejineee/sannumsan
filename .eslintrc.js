@@ -4,10 +4,7 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
+  extends: ['plugin:react/recommended', 'airbnb'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -27,9 +24,7 @@ module.exports = {
   plugins: ['react'],
   ignorePatterns: ['build/', 'node_modules/', 'src/data/gpx'],
   rules: {
-    'indent': ['error', 2],
     'no-trailing-spaces': 'error',
-    'curly': 'error',
     'brace-style': 'error',
     'no-multi-spaces': 'error',
     'space-infix-ops': 'error',
@@ -52,6 +47,7 @@ module.exports = {
     'linebreak-style': 'off',
     'no-proto': 'off',
     'quote-props': ['error', 'consistent'],
+    'react/no-array-index-key': 'off',
   },
   settings: { 'import/resolver': 'webpack' },
 };
