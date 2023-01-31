@@ -30,10 +30,10 @@
 
 ## 회고  <a id="2"></a>
 
-- [프로젝트 1주차 회고](./retrospect/week9.md)
-- [프로젝트 2주차 회고](./retrospect/week10.md)
-- [프로젝트 3주차 회고](./retrospect/week11.md)
-- [프로젝트 4주차 회고](./retrospect/week12.md)
+- [프로젝트 1주차 회고](https://github.com/hyejineee/sannumsan/blob/master/retrospect/week9.md)
+- [프로젝트 2주차 회고](https://github.com/hyejineee/sannumsan/blob/master/retrospect/week10.md)
+- [프로젝트 3주차 회고](https://github.com/hyejineee/sannumsan/blob/master/retrospect/week11.md)
+- [프로젝트 4주차 회고](https://github.com/hyejineee/sannumsan/blob/master/retrospect/week12.md)
 
 - [2022 프로젝트 정리 회고](https://hyejineee.github.io/blog/sannumsan-refactoring)
 
